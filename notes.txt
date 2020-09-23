@@ -1,0 +1,52 @@
+
+
+Spencer to do:
+ Need professional headshot with white background
+ Need product photos 
+ reinstate instagram
+
+Colors
+ #fafae2 /*off white*/
+
+
+ -red is more of a deep pink - change to true red 
+ -black is not a true back 
+
+Logo:
+    gradient with center being the reddest point, fades out to smokey red 
+
+Advanced site ideas:
+    each sauce has a story clickable little thing 
+    embedded videos 
+    twitter API embedded 
+    comparable sauce spice levels 
+    recipe ideas
+
+
+Spencer notes 9/10
+
+Site asethetics: 
+    Mr. Maurs logo top left 
+
+    white dotted line under header
+    top and bottom of hero should fade to black - with the top fade happening slower than the bottom 
+    Above dotted line (header only) put stars but not too many. 
+
+    Make samples of both asymmetrical and symmetrical black border fades so he can choose 
+
+    Wants jumbotron to match physical label
+
+Site details:
+    Make links contrast more 
+    each sauce has a story clickable little thing 
+    embedded videos 
+    twitter API embedded 
+    comparable sauce spice levels 
+    recipe ideas
+
+Label:
+    Edges of label fade to black with brushed metal in center 
+
+    Black watermark overlay - crater/planet texture for both site and label. 
+
+    Label should be extremely similar to site
