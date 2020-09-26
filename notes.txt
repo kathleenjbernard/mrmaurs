@@ -1,4 +1,4 @@
-
+invoice/timeline/project proposal 
 
 Spencer to do:
  Need professional headshot with white background
@@ -46,7 +46,14 @@ Site details:
 
 Label:
     Edges of label fade to black with brushed metal in center 
-
     Black watermark overlay - crater/planet texture for both site and label. 
-
     Label should be extremely similar to site
+    On label, no stars at bottom 
+
+Hero background notes 9/25:
+-pull down black, push up stars
+-improve transition 
+-remove half of stars 
+-make stars more faint
+-remove bigger stars 
+-black division should be about an inch thick
