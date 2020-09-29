@@ -57,3 +57,8 @@ Hero background notes 9/25:
 -make stars more faint
 -remove bigger stars 
 -black division should be about an inch thick
+
+
+Nutrition label: 
+-only five sauces for initial relaunch 
+-remove address from sauce labels 
