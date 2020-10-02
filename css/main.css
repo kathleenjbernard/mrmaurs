@@ -253,38 +253,29 @@ a:hover {
     width: 100%;
 }
 
-.inner-nav,
-.extra-nav {
+.inner-nav {
     display: table-cell;
     height: 100%;
-}
-
-.extra-nav {
-    white-space: nowrap;
 }
 
 .nav-toogle {
     display: none;
 }
 
-.inner-nav > ul,
-.extra-nav > ul {
+.inner-nav > ul {
     list-style: none;
     height: 100%;
     padding: 0;
-    margin: 0;
 }
 
-.inner-nav > ul > li,
-.extra-nav > ul > li {
+.inner-nav > ul > li {
     display: inline-block;
     height: 100%;
 }
 
-.inner-nav > ul > li > a,
-.extra-nav > ul > li > a {
+.inner-nav > ul > li > a {
     display: block;
-    padding: 0 15px;
+    padding: 15px 30px;
     line-height: 20px;
     color: #fafae2;
     height: 100%;
@@ -292,18 +283,14 @@ a:hover {
 }
 
 .inner-nav > ul > li > a:hover,
-.inner-nav > ul > li > a.active,
-.extra-nav > ul > li > a:hover,
-.extra-nav > ul > li > a.active {
+.inner-nav > ul > li > a.active {
     color: white;
     font-weight: 700;
     text-decoration: none;
 }
 
 .inner-nav > ul > li > a::after,
-.inner-nav > ul > li > a::before,
-.extra-nav > ul > li > a::after,
-.extra-nav > ul > li > a::before {
+.inner-nav > ul > li > a::before {
     content: "";
     display: block;
     height: 50%;
@@ -311,177 +298,18 @@ a:hover {
     height: calc(50% - 12px);
 }
 
-.extra-nav > ul {
-    padding-left: 10px;
-    margin-left: 20px;
-}
-
-.extra-nav > ul > li > a {
-    font-size: 16px;
-}
-
-.has-submenu.submenu-left {
-    position: relative;
-}
-
-.has-submenu.submenu-left .submenu {
-    right: 0;
-}
-
-.submenu {
-    border-top: 2px solid #c78f53;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.submenu .submenu {
-    left: 100%;
-    top: -14px;
-}
-
-.submenu li {
-    position: relative;
-}
-
-.submenu li > a {
-    display: block;
-    -webkit-transition: all 0.3s ease-out;
-            transition: all 0.3s ease-out;
-    padding: 8px 20px 8px 20px;
-    color: #969696;
-}
-
-.submenu li > a:hover {
-    background: rgba(34, 34, 34, 0.3);
-    padding-left: 25px;
-    color: #ffffff;
-}
-
-.submenu .nav-box,
-.submenu .submenu-title {
-    padding: 8px 20px;
-}
-
-.submenu .submenu-title {
-    display: block;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 12px;
-    color: #ffffff;
-}
-
-.submenu .has-submenu.submenu-open > a {
-    background: rgba(34, 34, 34, 0.3);
-    color: #ffffff;
-}
-
-.submenu {
-    position: absolute;
-    background-color: #0d0d0d;
-    padding: 12px 0;
-    min-width: 180px;
-    opacity: 0;
-    z-index: 1030;
-    visibility: hidden;
-    text-align: left;
-    font-size: 13px;
-    color: #969696;
-    top: 100%;
-}
-
-.submenu h1,
-.submenu .h1,
-.submenu h2,
-.submenu .h2,
-.submenu h3,
-.submenu .h3,
-.submenu h4,
-.submenu .h4,
-.submenu h5,
-.submenu .h5,
-.submenu h6,
-.submenu .h6 {
-    color: #ffffff;
-}
-
-.submenu hr {
-    border-color: rgba(255, 255, 255, 0.1);
-}
-
-.submenu-open > .submenu {
-    visibility: visible;
-    opacity: 1;
-}
-
-.submenu-mega {
-    background-size: cover;
-    display: table;
-    width: 100%;
-    right: 0;
-    left: 0;
-}
-
-.submenu-mega > li {
-    display: table-cell;
-    vertical-align: top;
-    width: 25%;
-}
-
-
-
-.submenu-mega > li > ul {
-    list-style: none;
-    padding: 0 0;
-    margin: 0;
-}
-
-.nav-box .form-control {
-    width: auto;
-}
-
-.nav-cart-table {
-    margin: 0;
-}
-
-.nav-cart-table > tbody > tr > td {
-    vertical-align: middle;
-    padding: 10px 0;
-    border: 0;
-}
-
-.nav-cart-table > tbody > tr:not(:last-child) > td {
-    border-bottom: 1px solid rgba(51, 51, 51, 0.3);
-}
-
-.nav-cart-table > tbody > tr > td:first-child {
-    padding-right: 16px;
-    width: 76px;
-}
-
-.nav-cart-table > tbody > tr > td:first-child > img {
-    max-width: 60px;
-    width: 60px;
-}
-
-.nav-cart-table .nav-cart-title {
-    display: block;
-    color: #969696;
-    margin: 0 0 5px;
-}
-
-.nav-cart-table .nav-cart-title:hover {
-    color: #ffffff;
-}
 
 @media (min-width: 992px) {
     .inner-navigation.collapse {
         display: table-cell !important;
     }
+    .inner-nav > ul {
+        margin-left: -70px;
+    }
 } 
 
 @media (max-width: 991px) {
-    .nav-toggle {
+    .nav-toogle {
         display: table-cell;
         vertical-align: middle;
         text-align: right;
@@ -489,36 +317,32 @@ a:hover {
 
     .inner-navigation,
     .inner-navigation-inline,
-    .inner-nav,
-    .extra-nav {
+    .inner-nav {
         height: auto;
     }
 
-    .inner-nav ul > li,
-    .extra-nav ul > li {
+    .inner-nav ul > li {
         display: block;
         height: auto;
     }
 
-    .inner-nav ul > li > a,
-    .extra-nav ul > li > a {
+    .inner-nav ul > li > a {
         display: block;
     }
 
     .inner-nav ul > li > a::after,
-    .inner-nav ul > li > a::before,
-    .extra-nav ul > li > a::after,
-    .extra-nav ul > li > a::before {
+    .inner-nav ul > li > a::before {
         content: none;
     }
 
     .inner-navigation {
+        display: none; /*toggle with js*/
         position: absolute;
         background: #0d0d0d;
         max-height: 340px;
-        width: 100%;
-        left: 0;
-        top: 100%;
+        width: 25%;
+        right: 0;
+        top: 10px;
     }
 
     .inner-navigation.in {
@@ -530,78 +354,23 @@ a:hover {
         padding: 30px 15px;
     }
 
-    .inner-nav,
-    .extra-nav {
+    .inner-nav {
         text-align: left;
         display: block;
-    }
-
-    .extra-nav ul {
-        border: 0;
-        padding: 0;
-        margin: 0;
-    }
-
-    .inner-navigation.collapse {
-        display: none;
     }
 
     .inner-navigation.collapse.in {
         display: block;
     }
 
-    .inner-nav > ul > li > a,
-    .extra-nav > ul > li > a,
-    .submenu li > a,
-    .submenu > li > a {
+    .inner-nav > ul > li > a {
         padding: 10px 0;
         box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.1);
     }
 
-    .inner-nav > ul > li > a:hover,
-    .extra-nav > ul > li > a:hover,
-    .submenu li > a:hover,
-    .submenu > li > a:hover {
+    .inner-nav > ul > li > a:hover {
         background: transparent;
         padding: 10px 0;
-    }
-
-    .submenu .nav-box,
-    .submenu .submenu-title {
-        padding: 20px 0 10px;
-    }
-
-    .submenu .has-submenu.submenu-open > a {
-        background: transparent;
-    }
-
-    .submenu {
-        border: 0;
-        padding: 0 0 0 15px;
-    }
-
-    .submenu,
-    .submenu .submenu,
-    .submenu.submenu-mega {
-        background: transparent;
-        background-image: none !important;
-        display: none;
-        margin: 0;
-    }
-
-    .submenu-open > .submenu {
-        position: static;
-        display: block !important;
-    }
-
-    .submenu-mega > li:not(:last-child) {
-        border: 0;
-    }
-
-    .submenu-mega > li {
-        display: block;
-        width: 100%;
-        padding: 0;
     }
 
     .nav-box .form-control {
@@ -669,6 +438,15 @@ a:hover {
 /* About Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+#gradient-box {
+    position: absolute;
+    margin-top: -80px;
+    height: 80px;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, transparent 5%, black, black);
+    z-index: 2;
+}
+
 #caption-wrapper {
     display: block;
     color: rgb(133, 133, 133);
@@ -679,7 +457,9 @@ a:hover {
 
 #about {
     background: #161615;
+    z-index: 3;
     position: relative;
+
 }
 
 #about h2 {
@@ -852,6 +632,10 @@ a:hover {
     margin: 0;
     padding: 5rem 0 5rem 0;
     background-color: rgba(0, 0, 0, 0.719);
+}
+
+.menu-group-item:last-child {
+    border-bottom: none;
 }
 
 .menu-group-item:hover {
