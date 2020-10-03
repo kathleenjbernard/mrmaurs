@@ -8,10 +8,6 @@ Spencer to do:
 Colors
  #fafae2 /*off white*/
 
-
- -red is more of a deep pink - change to true red 
- -black is not a true back 
-
 Logo:
     gradient with center being the reddest point, fades out to smokey red 
 
@@ -51,29 +47,33 @@ Label:
     On label, no stars at bottom 
 
 Hero background notes 9/25:
--pull down black, push up stars
--improve transition 
--remove half of stars 
--make stars more faint
--remove bigger stars 
--black division should be about an inch thick
-
+    -pull down black, push up stars
+    -improve transition 
+    -remove half of stars 
+    -make stars more faint
+    -remove bigger stars 
+    -black division should be about an inch thick
 
 Nutrition label: 
--only five sauces for initial relaunch 
--remove address from sauce labels 
+    -only five sauces for initial relaunch 
+    -remove address from sauce labels 
 
 
 
 
 Notes 9/30
 
-Make black in nav even
-Black fade at bottom of hero
 twitter feed?
 color of links in nav
-Finish logo asap
 countdown until release date?
 baster with barbecue sauce on the hero section
 MrM at the bottom 
 Embedding commerical 
+
+10/2 logo notes from spencer 
+Color: not red enough
+Needs gradient 
+Top of R needs to be even with top of M
+Righthand leg of R needs to be dropped down with lower leg on M
+Tail of star needs to be gray
+Top R looks kinda too big
